@@ -37,7 +37,7 @@ header nav{
     float: right;
     font-size: 20px;
     margin-right: -100px;
-    font-family: Spoqa Han Sans Light;
+    font-family: GmarketSansTTFLight;
     letter-spacing: 0.1em;
     font-weight: bold;
     
@@ -96,8 +96,8 @@ ul{
     
 }
 @font-face{
-    font-family: Spoqa Han Sans Light;
-    src:url('Spoqa Han Sans Light.ttf');
+    font-family: GmarketSansTTFLight;
+    src:url('GmarketSansTTFLight.ttf');
     font-weight:medium;
 }
 
@@ -113,7 +113,7 @@ header{
 
 
 body{
-    font-family: Spoqa Han Sans Light;
+    font-family: GmarketSansTTFLight;
 }
 
 #image{
