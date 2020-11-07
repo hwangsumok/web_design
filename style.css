@@ -1,0 +1,136 @@
+body{
+    font-family: "GmarketSansTTFLight";
+    background-color: #ffffff;
+    
+    
+}
+header{
+    width: 70%;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: #ff8000;
+    padding: 40px;
+    overflow: hidden;
+    
+}
+
+header h1{
+    width: 100%;
+    float: right;
+    margin-right: -220px;
+    color: #ffff;
+    text-shadow: 10px 10px 0px #6c2100;
+    font-family: JalnanOTF;
+    font-size: 100px;
+}
+header h2{
+    width: 100%;
+    float: right;
+    margin-right: -250px;
+    color: #8d2b00;
+    text-shadow: 0px 0px 10px #fffaba, 0px 0px 15px #ffffff;
+    font-family: JalnanOTF;
+}
+
+header nav{
+    width: 100%;
+    float: right;
+    font-size: 20px;
+    margin-right: -100px;
+    font-family: GmarketSansTTFLight;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    float:left;
+    margin: 15px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+section{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    border: 10px dotted #ff8000;
+    background-color: #ffffff;
+    font-family: 
+    
+}
+
+footer{
+    width: 74.5%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: decimal 
+}
+
+@font-face{
+    font-family: JalnanOTF;
+    src:url('JalnanOTF.otf');
+    
+}
+@font-face{
+    font-family: GmarketSansTTFLight;
+    src:url('GmarketSansTTFLight.ttf');
+    font-weight:medium;
+}
+
+
+
+header{
+    
+    letter-spacing: 0.3em;
+    font-size: 20px;
+    font-weight: 0;
+}
+
+
+
+body{
+    font-family: GmarketSansTTFLight;
+}
+
+#image{
+    padding-left: -600px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
