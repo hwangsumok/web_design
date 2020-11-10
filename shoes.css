@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    width:1800px;
+}
+
+#line{
+    width: 1800px;
+    height: 20px;
+    background-color: #16abd2;
+    margin-top: -10px;
+    margin-left: -15px;}
+
+.banner{
+    font-family: Raleway-Medium;
+    font-weight:600;
+    font-size: 40px;
+    color: whitesmoke;   
+}
+
+a{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: #16abd2;
+}
+
+
+
