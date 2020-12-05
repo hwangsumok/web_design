@@ -1,0 +1,263 @@
+.header-container{
+    display: block;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("main%20banner%20bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.header-container .top-navi{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
+
+.header-container .top-navi ul{
+    list-style: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 1440px;
+}
+
+.header-container .top-navi li{
+    display: block;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.header-container .top-navi ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Medium;
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src: url('GmarketSansTTFMedium.ttf');
+}
+
+@font-face{
+    font-family:Raleway-Medium;
+    src: url('Raleway-Medium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family:Raleway-Bold;
+    src: url('Raleway-Bold.ttf');
+    font-weight: normal;
+}
+
+#banner2{
+    padding-top: 400px;
+}
+
+#banner2 .low-navi{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding-left: 235px;
+}
+
+#banner2 .low-navi ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#banner2 .low-navi li{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center
+}
+
+#banner2 .low-navi ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Bold;
+    font-size: 85px;
+    font-weight: bolder;
+}
+
+.gallerylist{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gallerylist ul{ font-size: 0;}
+
+.gallerylist ul > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+}
+
+.gallerylist ul > li > a{
+    display: block;
+    width: auto;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.gallerylist ul > li > a .screen{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallerylist ul > li > a .screen .top1{
+    position: absolute;
+    bottom: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all .35s;
+    font-family: GmarketSansTTFMedium;
+}
+
+.gallerylist ul > li > a .screen .bottom{
+    position: absolute;
+    top: 150%;
+    left: 30px;
+    right: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 15px;
+    font-family: GmarketSansTTFMedium;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.gallerylist ul > li > a .screen img{
+    width: 100%;
+}
+
+.gallerylist ul > li > a h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: Raleway-MEDIUM;
+    margin: 0 auto;
+}
+
+.gallerylist ul > li > a:hover .top1 {bottom:52%;}
+
+.gallerylist ul > li > a:hover .bottom {top:52%;}
+
+.gallerylist ul > li > a .screen::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index:1;
+    opacity: 0;
+    transition: all .35s;
+}
+
+.gallerylist ul > li > a:hover .screen::after {
+    opacity: 1;
+}
+
+.gallerylist2{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.gallerylist2 ul{ font-size: 0;}
+
+.gallerylist2 ul > li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+}
+
+.gallerylist2 ul > li > a{
+    display: block;
+    width: auto;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.gallerylist2 ul > li > a .screen{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallerylist2 ul > li > a .screen .top1{
+    position: absolute;
+    bottom: 150%;
+    left: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    transition: all .35s;
+    font-family: GmarketSansTTFMedium;
+}
+
+.gallerylist2 ul > li > a .screen .bottom{
+    position: absolute;
+    top: 150%;
+    left: 30px;
+    right: 30px;
+    z-index: 2;
+    color: #fff;
+    font-size: 15px;
+    font-family: GmarketSansTTFMedium;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.gallerylist2 ul > li > a .screen img{
+    width: 100%;
+}
+
+.gallerylist2 ul > li > a h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: Raleway-MEDIUM;
+    margin: 0 auto;
+}
+
+.gallerylist2 ul > li > a:hover .top1 {bottom:52%;}
+
+.gallerylist2 ul > li > a:hover .bottom {top:52%;}
+
+.gallerylist2 ul > li > a .screen::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index:1;
+    opacity: 0;
+    transition: all .35s;
+}
+
+.gallerylist2 ul > li > a:hover .screen::after {
+    opacity: 1;
+}
+
+.header-container .top-navi a:hover{
+    color: dodgerblue;
+}
