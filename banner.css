@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 800px;
+}
+
+.line{
+    width: 100%;
+    height: 40px;
+    background-color: #288c00; 
+}
+
+.header-container{
+    display: block;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url("main%20banner%20bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family:Raleway-Medium;
+    src: url('Raleway-Medium.ttf');
+    font-weight: normal;
+}
+
+.top{
+    padding-top: 10px; 
+    margin: 0;
+    color: white;
+    font-family: Raleway-Medium;;
+    position: absolute;
+    right: 0;
+    animation: move infinite linear 20s;
+     display: block;
+    text-align: right;
+    width: 100%;
+}
+
+@keyframes move {
+    100% {right: 100%;}
+    0% {right: -50%;}
+}
+
+
