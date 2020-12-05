@@ -1,0 +1,109 @@
+.header-container{
+    display: block;
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    background-image: url("main%20banner%20bg.jpg");
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.nav-container{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 1440px;
+}
+
+nav li{
+    display: block;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Medium;
+}
+
+@font-face{
+    font-family:Raleway-Medium;
+    src: url('Raleway-Medium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src: url('GmarketSansTTFMedium.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family:Raleway-bold;
+    src: url('Raleway-bold.ttf');
+    font-weight: normal;
+}
+
+.introduce{
+    display: inline-block;
+    background: #288c00;
+    width: 800px;
+    position: absolute;
+    height: 360px;
+    left: 500px;
+    top: 500px;
+    border-image-width: auto;
+    border: 5px solid #288c00;
+    clear: both;
+}
+
+h1{
+    font-family: GmarketSansTTFMedium;
+    padding-left: 1180px;
+    padding-top: 400px;
+    font-size: 25px;
+}
+
+.introduce .content .mail{
+    font-size: 30px;
+    font-family: Raleway-Bold;
+    margin-top: -230px;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+.introduce .content .phone{
+    font-size: 30px;
+    font-family: Raleway-Bold;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+.introduce .content img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.introduce .content a{
+    margin-left: 350px;
+    padding: 0;
+    font-family: GmarketSansTTFMedium;
+    font-style: italic;
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+
+
