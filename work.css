@@ -1,0 +1,69 @@
+.head-container .top-navi{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
+
+.header-container .top-navi ul{
+    list-style: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 1440px;
+}
+
+.header-container .top-navi li{
+    display: block;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.header-container .top-navi ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Medium;
+}
+
+@font-face{
+    font-family:Raleway-Bold;
+    src: url('Raleway-Bold.ttf');
+    font-weight: normal;
+}
+
+#banner2{
+    padding-top: 400px;
+}
+
+#banner2 .low-navi{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding-left: 235px;
+}
+
+#banner2 .low-navi ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#banner2 .low-navi li{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center
+}
+
+#banner2 .low-navi ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Bold;
+    font-size: 85px;
+    font-weight: bolder;
+}
+
+.header-container .top-navi a:hover{
+    color: dodgerblue;
+}
