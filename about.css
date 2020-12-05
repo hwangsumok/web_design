@@ -1,0 +1,99 @@
+.nav-container{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 1440px;
+}
+
+nav li{
+    display: block;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway-Medium;
+}
+
+@font-face{
+    font-family: GmarketSansTTFMedium;
+    src: url('GmarketSansTTFMedium.ttf');
+    font-weight: normal;
+}
+
+.introduce{
+    display: inline-block;
+    background: white;
+    width: 800px;
+    position: absolute;
+    height: 360px;
+    left: 500px;
+    top: 500px;
+    border-image-width: auto;
+    border: 5px solid #288c00;
+    clear: both;
+}
+
+.introduce img{
+    width: 300px;
+    float: left;
+    padding-left: 33px;
+    padding-top: 32px
+}
+
+h1{
+    font-family: GmarketSansTTFMedium;
+    padding-left: 1150px;
+    padding-top: 340px;
+    font-size: 25px;
+}
+
+.content p1{
+    float: left;
+    padding-top: 215px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: GmarketSansTTFMedium;
+}
+
+.content p2{
+    float: left;
+    padding-top: 225px;
+    margin-left: -57px;
+    font-family: GmarketSansTTFMedium;
+    font-size: 15px;
+}
+
+.content p3{
+    float: left;
+    padding-top: 245px;
+    font-size: 20px;
+    font-family: GmarketSansTTFMedium;
+    margin-left: -127px
+}
+
+.content p4{
+    float: left;
+    padding-top: 10px;
+    font-family: GmarketSansTTFMedium;
+    font-size: 15px;
+    margin-left: 30px
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+
+
+
