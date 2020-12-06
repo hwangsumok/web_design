@@ -307,5 +307,9 @@
     height: 20px;
 }
 
+@font-face{
+    font-family: GmarketSansTTFbold;
+    src: url('GmarketSansTTFbold.ttf');
+}
 
 
