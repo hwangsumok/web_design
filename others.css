@@ -84,12 +84,12 @@
 }
 
 @font-face{
-    font-family: GmarketSansTTFbold;
-    src: url('GmarketSansTTFbold.ttf');
+    font-family: GmarketSansTTFBold;
+    src: url('GmarketSansTTFBold.ttf');
 }
 
 .top-head{
-    font-family: GmarketSansTTFbold;
+    font-family: GmarketSansTTFBold;
     font-size: 30px;
     margin-top: 50px;
 }
